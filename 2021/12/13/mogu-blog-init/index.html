@@ -37,6 +37,10 @@
 
   
   
+    
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+  
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 <body>
@@ -133,8 +137,6 @@
     
     
     
-      <i id="changyan_count_unit" data-xid="/2021/12/13/mogu-blog-init/"></i>
-    
   
   <i class="fa fa-commt"></i>
   留言
@@ -144,7 +146,9 @@
     </div>
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h2 id="部署之路"><a href="#部署之路" class="headerlink" title="部署之路"></a>部署之路</h2><h3 id="起基本应用"><a href="#起基本应用" class="headerlink" title="起基本应用"></a>起基本应用</h3><ul>
+        <p>开始搭建之路</p>
+<span id="more"></span>
+<h2 id="部署之路"><a href="#部署之路" class="headerlink" title="部署之路"></a>部署之路</h2><h3 id="起基本应用"><a href="#起基本应用" class="headerlink" title="起基本应用"></a>起基本应用</h3><ul>
 <li>rabbitmq  mysql redis nacos </li>
 <li>gateway picture sms mogu-admin mogu-web </li>
 <li>vue-<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3></li>
@@ -201,8 +205,6 @@
 
 
 
-
-  <div id="SOHUCS" sid="2021/12/13/mogu-blog-init/"></div>
 
 
       
@@ -374,70 +376,6 @@ var _hmt = _hmt || [];
 
 
 
-
-
-  <script>
-    window._config = { showScore: true };
-    (function(){
-      var appid = 'cyt1tge3n';
-      var conf = 'c0d8771fac91d4771fd5d55ad682dcfa';
-      var width = window.innerWidth || document.documentElement.clientWidth;
-      var nodes =document.getElementsByTagName("head")[0]||document.head||document.documentElement;
-      if (/(Android|iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) && width < 750) {
-          window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
-      }
-      else {
-        var loadJs=function(d,a){
-          var b=document.createElement("script");b.setAttribute("type","text/javascript");
-          b.setAttribute("charset","UTF-8");
-          b.setAttribute("src",d);
-          if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}
-          nodes.appendChild(b)
-        };
-        loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})});
-      }
-      var loadCss = function(cssString){
-        var style=document.createElement("style");
-        style.setAttribute("type", "text/css");
-        if(style.styleSheet){// IE
-            style.styleSheet.cssText = cssString;
-        } else {// w3c
-            var cssText = document.createTextNode(cssString);
-            style.appendChild(cssText);
-        }
-        nodes.appendChild(style);
-      }
-    })();
-    function removeElement(_element){
-         var _parentElement = _element.parentNode;
-         if(_parentElement){
-                _parentElement.removeChild(_element);
-         }
-    }
-    var removeAD = document.createElement("div");
-    removeAD.id = 'removeAD';
-    var adInterval1 = setInterval(function() {
-      if(document.querySelector("#feedAv")){
-        document.querySelector("[node-type=cmt-list]").appendChild(removeAD);
-        document.querySelector("#removeAD").appendChild(document.querySelector("#feedAv"));
-        //- removeElement(document.querySelectorAll("#feedAv")[0]);
-        var feedAv = document.querySelector("#feedAv").children;
-        for( item of feedAv){
-          item.style.display = 'none'
-        }
-        document.querySelector("#removeAD").style.display="none"
-        clearInterval(adInterval1);
-      }
-    },1000);
-    var adInterval2 = setInterval(function() {
-      if(document.querySelector("#pop_ad")){
-        removeElement(document.querySelector("#pop_ad"));
-        clearInterval(adInterval2);
-      }
-    }, 1000);
-  </script>
-  
-<script src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
 
 
 
