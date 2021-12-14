@@ -3,7 +3,7 @@
   <entry>
     <title>部署蘑菇博客</title>
     <url>/2021/12/13/mogu-blog-init/</url>
-    <content><![CDATA[<p>开始搭建之路</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>开始搭建之路</p>
 <span id="more"></span>
 <h2 id="部署之路"><a href="#部署之路" class="headerlink" title="部署之路"></a>部署之路</h2><h3 id="起基本应用"><a href="#起基本应用" class="headerlink" title="起基本应用"></a>起基本应用</h3><ul>
 <li>rabbitmq  mysql redis nacos </li>

@@ -23,7 +23,7 @@
     <published>2021-12-13T13:03:02.000Z</published>
     <updated>2021-12-13T13:45:09.790Z</updated>
     
-    <content type="html"><![CDATA[<p>开始搭建之路</p><span id="more"></span><h2 id="部署之路"><a href="#部署之路" class="headerlink" title="部署之路"></a>部署之路</h2><h3 id="起基本应用"><a href="#起基本应用" class="headerlink" title="起基本应用"></a>起基本应用</h3><ul><li>rabbitmq  mysql redis nacos </li><li>gateway picture sms mogu-admin mogu-web </li><li>vue-<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3></li><li>redis 是否有密码</li><li>mysql 是否连接，密码</li><li>nacos 是否启动成功</li></ul>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>开始搭建之路</p><span id="more"></span><h2 id="部署之路"><a href="#部署之路" class="headerlink" title="部署之路"></a>部署之路</h2><h3 id="起基本应用"><a href="#起基本应用" class="headerlink" title="起基本应用"></a>起基本应用</h3><ul><li>rabbitmq  mysql redis nacos </li><li>gateway picture sms mogu-admin mogu-web </li><li>vue-<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3></li><li>redis 是否有密码</li><li>mysql 是否连接，密码</li><li>nacos 是否启动成功</li></ul>]]></content>
     
     
     <summary type="html">&lt;p&gt;开始搭建之路&lt;/p&gt;</summary>
