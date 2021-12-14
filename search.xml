@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>部署蘑菇博客</title>
+    <url>/2021/12/13/mogu-blog-init/</url>
+    <content><![CDATA[<p>开始搭建之路</p>
+<span id="more"></span>
+<h2 id="部署之路"><a href="#部署之路" class="headerlink" title="部署之路"></a>部署之路</h2><h3 id="起基本应用"><a href="#起基本应用" class="headerlink" title="起基本应用"></a>起基本应用</h3><ul>
+<li>rabbitmq  mysql redis nacos </li>
+<li>gateway picture sms mogu-admin mogu-web </li>
+<li>vue-<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3></li>
+<li>redis 是否有密码</li>
+<li>mysql 是否连接，密码</li>
+<li>nacos 是否启动成功</li>
+</ul>
+]]></content>
+      <categories>
+        <category>折腾蘑菇博客</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+        <tag>mogu-blog</tag>
+      </tags>
+  </entry>
+</search>
